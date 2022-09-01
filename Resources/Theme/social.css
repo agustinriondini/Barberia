@@ -1,0 +1,96 @@
+@media (max-width: 599px) {
+    .social-media{
+        display: flex;
+        margin: auto;
+        background: linear-gradient(45deg, #3EB3D9, #7B3ED9, #701EEE);
+    }
+    .social-media-container{
+        display: flex;
+        width: 100vw;
+        min-width: 300px;
+        height: 10vh;
+        min-height: fit-content;
+        align-items: center;
+        margin: auto;
+       
+    }
+    .social-title{
+        font-size: 1rem;
+        color: white;
+        font-weight: 300;
+        text-align: center;
+        margin: auto;
+    }
+    .social-ul{
+        font-style: 1rem;
+        width: 20vw;
+        min-width: 300px;
+        height: auto;
+        min-height: fit-content;
+        display: flex;
+        min-width: 150px;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+    .social-li{
+        width: 20vw;
+        margin: auto;
+       
+    }
+    .social-img{
+        width: 2rem;
+        min-width: 32px;
+        height: 2rem;
+        min-height: 32px;
+        margin: auto;
+    }
+       
+}
+@media (min-width: 600px) {
+    .social-media{
+        display: flex;
+        margin: auto;
+        background: linear-gradient(45deg, #3EB3D9, #7B3ED9, #701EEE);
+    }
+    .social-media-container{
+        display: flex;
+        width: 100vw;
+        max-width: 1300px;
+        height: 10vh;
+        max-height: 100px;
+        align-items: center;
+        margin: auto;
+       
+    }
+    .social-title{
+        font-size: 2rem;
+        color: white;
+        font-weight: 300;
+        text-align: center;
+        margin: auto;
+    }
+    .social-ul{
+        font-style: 1rem;
+        width: 20vw;
+        max-width: 260px;
+        height: auto;
+        max-height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+    .social-li{
+        margin: auto;
+       
+    }
+    .social-img{
+        width: 2rem;
+        max-width: 32px;
+        height: 2rem;
+        max-height: 32px;
+        margin: auto;
+    }
+       
+}

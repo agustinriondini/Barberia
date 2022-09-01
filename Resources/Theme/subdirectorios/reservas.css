@@ -1,0 +1,132 @@
+@media (max-width: 599px){
+    .reserva{
+        display: flex;
+    } 
+    .reserva-container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        min-width: 300px;
+        min-height: fit-content;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .alert{
+        font-size: 1..5rem;
+        color: black;
+        font-weight: 600;
+        text-align: center;
+        margin: 1rem auto;
+    }
+    .make-reservation{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        min-width: 300px;
+        margin: 1rem auto;
+    }
+    .campus{
+        width: 80vw;
+        min-width: 290px;
+        margin: 0.5rem auto;
+        align-items: center;
+        font-size: 1rem;
+        text-align: center;
+        
+    }
+    .kimo{
+        display: flexbox;
+        margin: 0.5rem auto;
+        width: 80vw;
+        min-width: 290px;
+        text-align: center;
+
+        
+    }
+    .form-title{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .submit-btn{
+        width: 80vw;
+        min-width: 290px;
+        text-align: center;
+        margin: 0.5rem auto;
+        align-items: center;
+    }
+
+}
+@media (min-width: 600px){
+    .reserva{
+        display: flex;
+    } 
+    .reserva-container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        max-width: 1000px;
+        height: fit-content;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .alert{
+        font-size: 2rem;
+        color: black;
+        font-weight: 600;
+        text-align: center;
+        margin: 1rem auto;
+    }
+    .make-reservation{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        max-width: 1000px;
+        margin: 1rem auto;
+    }
+    .campus{
+        width: 80vw;
+        max-width: 800px;
+        height: 5vh;
+        max-height: 100px;
+        margin: 1rem auto;
+        align-items: center;
+        font-size: 1rem;
+        text-align: center;  
+        text-transform: uppercase;   
+    }
+    .kimo{
+        display: flexbox;
+        margin: 1rem auto;
+        width: 40vw;
+        max-width: 400px;
+        height: 5vh;
+        max-height: 100px;
+        text-align: center;   
+    }
+    .form-title{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .submit-btn{
+        width: 40vw;
+        max-width: 400px;
+        height: 5vh;
+        max-height: 100px;
+        text-align: center;
+        margin: 1rem auto;
+        align-items: center;
+    }
+    .submit-btn:hover{
+        background-color: gold;
+        box-shadow: goldenrod 0.3rem 0.3rem 0.3rem;
+        color: white;
+        font-weight: 600;
+        transition: 1s;
+        font-size: 1.2rem;
+    }
+    
+}

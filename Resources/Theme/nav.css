@@ -1,0 +1,130 @@
+
+@media (max-width: 600px) {
+    .nav-container{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        width: 100vw;
+        min-width: 300px;
+        height: calc(width/5);
+        min-height: 90px;
+        background: linear-gradient(45deg, #3EB3D9, #7B3ED9, #701EEE);
+    }
+    .logo{
+        visibility: hidden;
+        width: 15vw;
+        max-width: 50px;
+        height: calc(width/2);
+        display: flex;
+        margin: auto;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        width: 80vw;
+        min-width: 240px;
+        height: calc(width/2);
+        min-height: 90px;
+        margin: auto;
+        z-index: 2;
+
+
+    }
+    .nav-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 50vw;
+        min-width: 210px;
+        height: 20vh;
+        min-height: 90px;
+        margin: auto;
+
+    }
+    .nav-li{
+       text-decoration: none;
+       margin: 0.3rem;
+    }
+    .nav-li a{
+        text-decoration: none;
+        font-size: 1rem;
+        margin: auto;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+
+    }
+
+    .nav-li a:hover{
+        text-decoration: goldenrod 0.5rem underline;
+        font-size: 1rem;
+        margin: auto;
+
+
+    }
+}
+@media (min-width: 600px){
+    .nav-container{
+        display: flex;
+        width: 100vw;
+        max-width: 1300px;
+        height: 20vh;
+        max-height: 500px;
+        position: fixed;
+        background: linear-gradient(45deg, #3EB3D9, #7B3ED9, #701EEE);
+        z-index: 2;
+    }
+    .logo{
+        width: 8vw;
+        max-width: 200px;
+        height: fit-content;
+        max-height: 500px;
+        display: flex;
+        margin: auto;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        width: 70vw;
+        max-width: 910px;
+        height: 20vh;
+        max-height: 500px;
+        margin: auto;
+
+
+    }
+    .nav-ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 70vw;
+        max-width: 1300px;
+        height: 20vh;
+        max-height: 500px;
+        margin: auto;
+
+    }
+    .nav-li{
+       text-decoration: none;
+       margin: auto;
+    }
+    .nav-li a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin: 1rem auto;
+        font-weight: 600;
+        color: white;
+        text-transform: uppercase;
+
+    }
+    .nav-li a:hover{
+        text-decoration: goldenrod 0.5rem underline;
+        margin: auto;
+
+    }
+}
+    

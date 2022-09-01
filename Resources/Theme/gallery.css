@@ -1,0 +1,43 @@
+@media (max-width: 599px){
+    .roullette{
+        display: flex;
+
+    }
+    .gallery-container{
+        display: flex;
+        width: 100vw;
+        min-width: 300px;
+        align-items: center;
+        margin: 1rem auto;
+        background:linear-gradient(45deg, #3EB3D9, #7B3ED9, #701EEE);
+    }
+    .promo-video{
+        width: 80vw;
+        min-width: 280px;
+        margin: auto;
+        align-items: center;
+
+    }
+}
+@media (min-width: 600px){
+    .roullette{
+        display: flex;
+    }
+    .gallery-container{
+        display: flex;
+        width: 100vw;
+        max-width: 1300px;
+        align-items: center;
+        margin: 1rem auto;
+        background: linear-gradient(45deg, #3EB3D9, #7B3ED9, #701EEE);;
+    }
+    .promo-video{
+        width: 50%;
+        max-width: 1040px;
+        max-height: 720px;
+        margin: auto;
+        align-items: center;
+        z-index: 1;
+
+    }
+}
